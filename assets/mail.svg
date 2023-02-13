@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   width="24"
+   height="24"
+   version="1.1"
+   id="svg329"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs333">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter343"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         type="hueRotate"
+         values="180"
+         result="color1"
+         id="feColorMatrix339" />
+      <feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 2 0 "
+         result="color2"
+         id="feColorMatrix341" />
+    </filter>
+  </defs>
+  <path
+     fill-rule="evenodd"
+     d="M 1.75,3 A 1.75,1.75 0 0 0 0,4.75 v 14 c 0,0.966 0.784,1.75 1.75,1.75 h 20.5 A 1.75,1.75 0 0 0 24,18.75 v -14 A 1.75,1.75 0 0 0 22.25,3 Z M 1.5,4.75 A 0.25,0.25 0 0 1 1.75,4.5 h 20.5 a 0.25,0.25 0 0 1 0.25,0.25 v 0.852 l -10.36,7 a 0.25,0.25 0 0 1 -0.28,0 l -10.36,-7 z m 0,2.662 V 18.75 C 1.5,18.888 1.612,19 1.75,19 h 20.5 A 0.25,0.25 0 0 0 22.5,18.75 V 7.412 l -9.52,6.433 c -0.592,0.4 -1.368,0.4 -1.96,0 z"
+     id="path327"
+     style="filter:url(#filter343)" />
+</svg>

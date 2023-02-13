@@ -1,0 +1,59 @@
+html {
+    background-color: #090909;
+}
+
+body {
+    margin: 0px;
+}
+
+div {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color: #ffffff;
+    font-size: 16pt;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+a{
+    text-decoration: none;
+}
+
+#banniere {
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 25%;
+    padding-top: 0;
+    justify-content: space-around;
+}
+
+#divNom {
+    padding: 1%;
+}
+
+#nom {
+    font-size: 48pt;
+    margin: 0% 0%;
+}
+
+#prenom {
+    margin-bottom: 1%;
+    margin-top: 0%;
+    font-size: 24pt;
+}
+
+#contact {
+    border: #ffffff solid 1px;
+    border-radius: 10px;
+    padding: 3%;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
