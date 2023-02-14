@@ -1,5 +1,5 @@
 html {
-    background-color: #090909;
+    background-color: #121212;
 }
 
 body {
@@ -13,7 +13,7 @@ div {
 }
 
 p {
-    color: #ffffff;
+    color:#ffffff;
     font-size: 16pt;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
@@ -25,7 +25,7 @@ a{
 #banniere {
     background-color: #1a1a1a;
     padding: 2%;
-    width: 100%;
+    width: 96%;
     height: 20%;
     justify-content: space-around;
 }
@@ -59,10 +59,20 @@ a{
 }
 
 #menu {
-    background-color:dimgrey;
+    background-color: #2b2b2b;
     width: 15%;
     min-width: fit-content;
-    height: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#infos {
+    margin: 2%;
+    width: 81%;
+    justify-content: start;
+    flex-flow: column;
+    align-items: start;
 }
 
 .container {
@@ -70,6 +80,41 @@ a{
     flex-direction: row;
     padding-top: 0;
     flex-grow: 1;
+}
+
+.categorie {
+    display: flex;
+    flex-flow: column;
+    padding-top: 0;
+    flex-grow: 1;
+    justify-content: start;
+    width: 100%;
+    height: min-content;
+}
+
+.divTitre {
+    display: flex;
+    flex-flow: row;
+    padding-top: 0;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.titre {
+    font-size: 36pt;
+    padding-left: 2%;
+}
+
+.icon {
+    width: 8%;
+}
+
+.bouton>a {
+    width: 100%;
+}
+
+.bouton>a>p {
+    text-align: center;
 }
 
 a>p#contact {
