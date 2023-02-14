@@ -24,9 +24,9 @@ a{
 
 #banniere {
     background-color: #1a1a1a;
+    padding: 2%;
     width: 100%;
-    height: 25%;
-    padding-top: 0;
+    height: 20%;
     justify-content: space-around;
 }
 
@@ -45,15 +45,33 @@ a{
     font-size: 24pt;
 }
 
+
 #contact {
     border: #ffffff solid 1px;
     border-radius: 10px;
-    padding: 3%;
+    padding: 15%;
     margin: 0px;
+}
+
+#contenu {
+    width: 100%;
+    height: 100vh;
+}
+
+#menu {
+    background-color:dimgrey;
+    width: 15%;
+    min-width: fit-content;
+    height: 100%;
 }
 
 .container {
     display: flex;
     flex-direction: row;
+    padding-top: 0;
     flex-grow: 1;
+}
+
+a>p#contact {
+    width: max-content;
 }
