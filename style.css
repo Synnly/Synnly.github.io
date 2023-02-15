@@ -32,6 +32,12 @@ a{
     text-decoration: none;
 }
 
+hr {
+    color: #ffffff;
+    width: 80%;
+    margin-left: 0%;
+}
+
 #banniere {
     background-color: #1a1a1a;
     padding: 2%;
