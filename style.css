@@ -71,9 +71,12 @@ a{
 #menu {
     background-color: #2b2b2b;
     width: 15%;
+    height: 100vh;
     min-width: fit-content;
     flex-direction: column;
     justify-content: start;
+    position: sticky;
+    top: 0;
 }
 
 #infos {
