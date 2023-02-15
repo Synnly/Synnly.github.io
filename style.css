@@ -124,6 +124,39 @@ a{
     padding-left: 0%;
 }
 
+.titreGauche {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+
+.titreDroite {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items:flex-start;
+}
+
+.screenshotPortrait {
+    width: 10%;
+    align-self: center;
+}
+
+.screenshotPaysage {
+    width: 100%;
+    align-self: center;
+}
+
+.divProjetGauche {
+    padding-left: 5%;
+}
+
+.divProjetDroite {
+    padding-right: 5%;
+    justify-content: flex-end;
+}
+
 .bouton>a {
     width: 100%;
 }
@@ -134,4 +167,15 @@ a{
 
 a>p#contact {
     width: max-content;
+}
+
+.projetTitreGauche{
+    font-size: 24pt;
+    margin-bottom: 1%;
+}
+
+.projetTitreDroite {
+    font-size: 24pt;
+    align-self: flex-end;
+    margin-bottom: 1%;
 }
