@@ -88,6 +88,7 @@ hr {
 #infos {
     display: inline;
     margin: 4%;
+    margin-top: 2%;
     width: 81%;
     flex-flow: column;
 }
@@ -159,11 +160,12 @@ hr {
 
 .divProjetGauche {
     padding-left: 5%;
+    padding-top: 2%;
 }
 
 .divProjetDroite {
     padding-right: 5%;
-    justify-content: flex-end;
+    padding-top: 2%;
 }
 
 .bouton>a {
