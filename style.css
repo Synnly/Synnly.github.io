@@ -26,6 +26,7 @@ td {
 
 table {
     display: flex;
+    margin-right: 10%;
 }
 
 a{
@@ -129,7 +130,7 @@ hr {
     align-self: center;
 }
 
-.annee {
+.annee, .competence {
     text-align: end;
     padding-left: 0%;
 }
@@ -168,9 +169,14 @@ hr {
     padding-top: 2%;
 }
 
+.point {
+    width: 25%;
+}
+
 .bouton>a {
     width: 100%;
 }
+
 
 .bouton>a>p {
     text-align: center;
