@@ -179,16 +179,17 @@ hr {
     flex-flow: row;
     padding-top: 0%;
     margin: 5%;
-    width: 25vh;
-    justify-content: space-around;
+    width: 50vw;
+    height: 10vh;
+    justify-content: flex-start;
 }
 
 .titreContact {
     font-size: 28pt;
     padding-left: 2%;
     margin: 0;
-    margin-left:10%;
-    transform: translateY(9%);
+    margin-left: 5%;
+    transform: translateY(25%);
 }
 
 .separateurCategrorie {
@@ -213,7 +214,6 @@ a>p#contact {
 }
 
 div.divContact>img.icon {
-    width: 25%;
     height: 100%;
     align-self: center;
     flex-shrink: 0;
