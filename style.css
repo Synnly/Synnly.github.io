@@ -35,11 +35,10 @@ a{
 }
 
 hr {
-    color: #ffffff;
+    color: #4b4b4b;
     width: 80%;
-    margin-left: 0%;
-    margin-bottom: 2%;
-}
+    margin-top: 0;
+}   
 
 #banniere {
     background-color: #1a1a1a;
@@ -190,6 +189,14 @@ hr {
     margin: 0;
     margin-left:10%;
     transform: translateY(9%);
+}
+
+.separateurCategrorie {
+
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 0%;
+    color: #ffffff;
 }
 
 .bouton>a {
