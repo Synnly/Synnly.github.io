@@ -22,6 +22,7 @@ td {
     text-align: start;
     white-space:nowrap;
     padding-left: 5%;
+    width: fit-content;
 }
 
 table {
@@ -37,6 +38,7 @@ hr {
     color: #ffffff;
     width: 80%;
     margin-left: 0%;
+    margin-bottom: 2%;
 }
 
 #banniere {
@@ -173,6 +175,23 @@ hr {
     width: 25%;
 }
 
+.divContact {
+    display: flex;
+    flex-flow: row;
+    padding-top: 0%;
+    margin: 5%;
+    width: 25vh;
+    justify-content: space-around;
+}
+
+.titreContact {
+    font-size: 28pt;
+    padding-left: 2%;
+    margin: 0;
+    margin-left:10%;
+    transform: translateY(9%);
+}
+
 .bouton>a {
     width: 100%;
 }
@@ -184,6 +203,13 @@ hr {
 
 a>p#contact {
     width: max-content;
+}
+
+div.divContact>img.icon {
+    width: 25%;
+    height: 100%;
+    align-self: center;
+    flex-shrink: 0;
 }
 
 .projetTitreGauche{
